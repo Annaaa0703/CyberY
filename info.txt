@@ -1,0 +1,52 @@
+<div id="nav"
+        <div class="menu-item">
+            Обрати клас
+            <div class="submenu">
+                2-4 класи
+            </div>
+			<div class="submenu">
+                5-7 класи
+            </div>
+			<div class="submenu">
+                8-11 клас
+            </div>
+        </div>
+
+<div>
+	<ul id="nav">
+	<li><a>2-4 класи</li></a>
+	<li><a>5-7 класи</li></a>
+	<li><a>8-11 класи</li></a>
+	</ul>
+	</div>
+
+#nav {
+	list-style: none;
+	display: block;
+	float: left;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+#nav li {
+	display: inline;
+	background: #fff;
+	padding: 0 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#nav li:not(:last-of-type) {
+	margin-right: 20px;
+}
+
+#nav li:hover {
+	color: #fff;
+	background: #333;
+	border-radius: 5 px;
+	border-color: #333;
+}

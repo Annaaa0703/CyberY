@@ -1,0 +1,267 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body, html
+{
+	font-size: 18px !important;
+}
+
+body {
+	color: #000;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-color: #a3edff;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	min-width: 135px;
+	width: 100%;
+}
+
+#buttonn {
+	margin-left: 90%;
+}
+
+#small-button {
+	display: inline;
+	font-size: 26px;
+}
+
+#normal-button {
+	display: inline;
+	font-size: 28px;
+}
+
+#big-button {
+	display: inline;
+	font-size: 30px;
+}
+
+.btext {
+	font-size: 20px;
+}
+
+p
+
+.leftimg {
+    float:left;
+	margin: 7px 7px 7px 0; 
+	}
+.rightimg  {
+    float: right; 
+    margin: 7px 0 7px 7px; 
+   }
+
+a {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+#header {
+	width: 100%;
+	height: 70px;
+	background: #fff;
+	display: block;
+	border-bottom: 3px solid #000;
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+	font-family: 'Qwitcher Grypen', cursive;
+	position: relative;
+	
+}
+
+#navbar ul {
+	display: none;
+}
+
+#navbar li:hover ul {
+	display: block;
+}
+
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#navbar li {
+	float: left;
+}
+
+#navbar ul li {
+	float: none;
+}
+
+#navbar ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#navbar li {
+  float: left;
+  position: relative;
+}
+#navbar {
+	height: 30px;
+}
+
+#navbar ul {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+}
+
+#navbar li:hover ul {
+	display: block;
+}
+
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 30px;
+  background-color: #fff;
+  padding-left: 25px;
+  min-width: 470px;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#navbar li a {
+  display: block;
+  padding: 6px;
+  width: 200px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li {
+	float: none;
+}
+
+#navbar li:hover {
+	background-color: #85c6d6;
+}
+
+#navbar ul li:hover {
+	background-color: #85c6d6;
+}
+
+#link {
+	color: blue;
+}
+
+#link:visited {
+	color: purple;
+}
+
+#link:active {
+	color: red;
+}
+
+.top {
+	margin-bottom: 20px;
+	font-size: 22px;
+	text-align: center;
+}
+
+#main {
+	display: block;
+	width: 65%;
+	color: #000;
+	font-size: 18px;
+	line-height: 40px;
+	padding: 20px 2.5%;
+	background-color: #fff;
+	margin-left: 35%;
+}
+
+.snow {
+  height:50px;
+  background: #fff;
+}
+.snow{
+  position:fixed;
+  pointer-events:none;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100vh;
+  background: none;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
+  z-index:100;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+#end {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	background: #a3edff;
+	color: #000;
+	font-size: 30px;
+	font-family: 'Qwitcher Grypen', cursive;
+	line-height: 70px;
+	margin-top: 200px;
+	padding: 10px;
+	width: 100%;
+}
+
+#contacts {
+	color: #000;
+	font-size: 18px;
+	font-family: 'Qwitcher Grypen', cursive;
+	line-height: 25px;
+	margin: 15px;
+}
+
+#contacts:not(:last-of-type) {
+	margin-right: 20px;
+}
+
+.contacts {
+	width: 35px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	display: inline;
+	line-height: 5px;
+}
